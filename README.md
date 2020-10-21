@@ -8,27 +8,25 @@ Fact-checking is the task of verifying the veracity of claims by assessing their
 
 ## Dataset
 
-We present PUBHEALTH, a dataset for two fact-checking tasks: claim verification and generating natural language explanations for verified claims. The dataset can be found under ``data/PUBHEALTH/``. 
+We present __PUBHEALTH__, a comprehensive dataset for explainable automated fact-checking of public health claims. Each instance in the __PUBHEALTH__ dataset has an associated veracity label (true, false, unproven, mixture). Furthermore each instance in the dataset has an _explanation_ text field. The explanation is a justification for which the claim has been assigned a particular veracity label. The dataset can be found under ``data/PUBHEALTH/``. Further information about the dataset (e.g., test/train/dev splits, data collection, data processing) can be found in the ``DATASHEET`` and ``README`` provided under `data/`.
 
-The following is an example of an instance of the PUBHEALTH dataset:
+The following is an example instance of the PUBHEALTH dataset:
 
-|  Field              |  Example        |
-| ------------   | ------- |
-| __claim__  	     | Expired boxes of cake and pancake mix are dangerously toxic. |
-| __explanation__    | What's True:  Pancake and cake mixes that contain mold can cause life-threatening allergic reactions. What's False: Pancake and cake mixes that have passed their expiration dates are not inherently dangerous to ordinarily healthy people, and the yeast in packaged baking products does not "over time develops spores." |
-| __label__          |  mixture      |
-| __claim URL__     | https://www.snopes.com/fact-check/expired-cake-mix/ |
-| __author(s)__        | David Mikkelson | 
-| __date published__ | April 19, 2006 |
-| __tags__           | Food, allergies, baking, cake |
+|  Field              |  Example                                                     |
+| -----------------   | -------------------------------------------------------------|
+| __claim__  	      | Expired boxes of cake and pancake mix are dangerously toxic. |
+| __explanation__     | What's True:  Pancake and cake mixes that contain mold can cause life-threatening allergic reactions. What's False: Pancake and cake mixes that have passed their expiration dates are not inherently dangerous to ordinarily healthy people, and the yeast in packaged baking products does not "over time develops spores." |
+| __label__           |  mixture                                                     |
+| __claim URL__       | https://www.snopes.com/fact-check/expired-cake-mix/          |
+| __author(s)__       | David Mikkelson                                              | 
+| __date published__  | April 19, 2006                                               |
+| __tags__            | food, allergies, baking, cake                                |
 
-
-Further information about the dataset can be found in the ``DATASHEET`` and ``README`` provided under `data/`.
 
 
 ## Reference
 
-If you use the dataset, please cite it as formatted below.
+If you use the dataset, please cite the paper as formatted below.
 
 ```
 @inproceedings{kotonya-toni-2020-explainable,
