@@ -1,6 +1,6 @@
 # Explainable Fact-Checking for Public Health Claims
 
-This repository contains data and code for the paper [Explainable Fact-Checking for Public Health Claims](https://neemakot.github.io/publication/emnlp2020/) which will be presented at [The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020)](https://2020.emnlp.org/papers/main).
+This repository contains data and code for the paper [Explainable Fact-Checking for Public Health Claims](https://arxiv.org/abs/2010.09926) which will be presented at The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020).
 
 ## Introduction
 
