@@ -8,7 +8,9 @@ Fact-checking is the task of verifying the veracity of claims by assessing their
 
 ## Dataset
 
-We present __PUBHEALTH__, a comprehensive dataset for explainable automated fact-checking of public health claims. Each instance in the __PUBHEALTH__ dataset has an associated veracity label (true, false, unproven, mixture). Furthermore each instance in the dataset has an _explanation_ text field. The explanation is a justification for which the claim has been assigned a particular veracity label. The dataset can be found under ``data/PUBHEALTH/``. Further information about the dataset (e.g., test/train/dev splits, data collection, data processing) can be found in the ``DATASHEET`` and ``README`` provided under `data/`.
+We present __PUBHEALTH__, a comprehensive dataset for explainable automated fact-checking of public health claims. Each instance in the __PUBHEALTH__ dataset has an associated veracity label (true, false, unproven, mixture). Furthermore each instance in the dataset has an _explanation_ text field. The explanation is a justification for which the claim has been assigned a particular veracity label. 
+
+The dataset can be [downloaded here](https://drive.google.com/file/d/1eTtRs5cUlBP5dXsx-FTAlmXuB6JQi2qj/view).
 
 The following is an example instance of the PUBHEALTH dataset:
 
@@ -22,6 +24,8 @@ The following is an example instance of the PUBHEALTH dataset:
 | __date published__  | April 19, 2006                                               |
 | __tags__            | food, allergies, baking, cake                                |
 
+
+More information about the __PUBHEALTH__ dataset can be found in [DATASHEET.md](data/DATASHEET.md) and [README.md](data/README.md)provided under under ``data/``, including test/train/dev splits, and data collection and processing information.
 
 
 ## Reference

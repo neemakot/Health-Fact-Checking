@@ -1,8 +1,10 @@
 # Datasheet for the PUBHEALTH dataset for explainable fake news detection of public health claims.
 
-Author: Neema Kotonya
+Author: [Neema Kotonya](https://neemakot.github.io/)
 
-Organization: Imperial College London
+Organization: Department of Computing, Imperial College London
+
+Dataset: [PUBHEALTH](https://drive.google.com/file/d/1eTtRs5cUlBP5dXsx-FTAlmXuB6JQi2qj/view)
 
 The template for this document is taken from the paper [Datasheets for Datasets (Gebru et al., 2019)](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/1803.09010.pdf).
 
