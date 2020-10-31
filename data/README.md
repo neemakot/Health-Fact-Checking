@@ -2,7 +2,7 @@
 
 Here is a brief overview of the PUBHEALTH dataset presented in this GitHub repository.
 
-You can [click here](https://drive.google.com/file/d/176j0AD9W1wuCdJ5bFNhtFi-J) to download the data.
+You can [click here](https://drive.google.com/file/d/176j0AD9W1wuCdJ5bFNhtFi-JsUjm1X4A/view) to download the data.
 
 ## Explainable Fact-Checking for Public Health Claims
 
