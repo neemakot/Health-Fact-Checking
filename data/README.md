@@ -2,20 +2,22 @@
 
 Here is a brief overview of the PUBHEALTH dataset presented in this GitHub repository.
 
+You can [click here](https://drive.google.com/file/d/176j0AD9W1wuCdJ5bFNhtFi-J) to download the data.
+
 ## Explainable Fact-Checking for Public Health Claims
 
 Train/dev/test data splits:
 
-|        | \# Instances |
-| ------ | ------------ |
+|           |\# Instances|
+| --------- | -----------|
 | train.tsv |	9,817    | 
-| dev.tsv |   1,227      |
-| test.tsv |  1,235      |
-|          |  12,279	 |
+| dev.tsv   |   1,227    |
+| test.tsv  |  1,235     |
+| total     |  12,279	 |
 
 Description of the tab-separated format in which the data is presented:
 
-### train.tsv and dev.tsv:
+* train.tsv and dev.tsv:
 
 | Columns        |  
 | -------------- |
@@ -33,7 +35,7 @@ Description of the tab-separated format in which the data is presented:
 | website name |
 
 
-### test.tsv:
+* test.tsv:
 
 | Columns        |  
 | -------------- |
@@ -48,7 +50,7 @@ Description of the tab-separated format in which the data is presented:
 | claim URL |
 | website name |
 
-### lexicon.txt:
+* lexicon.txt:
 
 Lexicon of 6,952 public health words and phrases. 
 
