@@ -38,8 +38,7 @@ The following is an example instance of the __PUBHEALTH__ dataset:
 | __date published__  | April 19, 2006                                               |
 | __tags__            | food, allergies, baking, cake                                |
 | __main_text__        |   In April 2006, the experience of a 14-year-old who had eaten pancakes made from a mix that had gone moldy was described in the popular newspaper column Dear Abby. The account has since been circulated widely on the Internet as scores of concerned homemakers ponder the safety of the pancake and other baking mixes lurking in their larders [...]       |
-| __evidence sources__    | [1] Bennett, Allan and Kim Collins.  “An Unusual Case of Anaphylaxis: Mold in Pancake Mix.” American Journal of Forensic Medicine & Pathology.   September 2001   (pp. 292-295). [2] Phillips, Jeanne.   “Dear Abby.” 14 April 2006   [syndicated column].
-|
+| __evidence sources__    | [1] Bennett, Allan and Kim Collins.  “An Unusual Case of Anaphylaxis: Mold in Pancake Mix.” American Journal of Forensic Medicine & Pathology.   September 2001   (pp. 292-295). [2] Phillips, Jeanne.   “Dear Abby.” 14 April 2006   [syndicated column]. |
 
 More information about the __PUBHEALTH__ dataset can be found in [DATASHEET.md](data/DATASHEET.md) and [README.md](data/README.md) provided under under ``data/``, including test/train/dev splits, and data collection and processing information.
 
@@ -73,11 +72,13 @@ There is the full list of requirements including versions:
 _Machine Learning, NLP, evaluation and visualization packages_:
 * [bert](https://pypi.org/project/bert/)==2.2.0
 * [bleach](https://pypi.org/project/bleach/)==3.0.2
+* [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)==4.8.2
 * [Keras](https://pypi.org/project/Keras/)==2.3.1
 * [matplotlib](https://pypi.org/project/matplotlib/)==3.0.1
 * [numpy](https://pypi.org/project/numpy/)==1.18.1
 * [py-rouge](https://pypi.org/project/py-rouge)==1.1
 * [PyYAML](https://pypi.org/project/PyYAML/)==5.3.1
+* [PyPDF2](https://pypi.org/project/PyPDF2/)==1.26.0
 * [requests](https://pypi.org/project/requests/)==2.13.0
 * [scikit-learn](https://pypi.org/project/scikitlearn/)==0.1.1
 * [sentence-transformers](https://pypi.org/project/sentence-transformers/)==0.3.8

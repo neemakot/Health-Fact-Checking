@@ -1,11 +1,13 @@
 bert==2.2.0
 bleach==3.0.2
+beautifulsoup4==4.8.2
 keras==2.3.1
 matplotlib==3.0.1
 numpy==1.18.1
 pandas==0.25.3
 py-rouge==1.1
 pyyaml==5.3.1
+PyPDF2==1.26.0
 requests==2.13.0
 scikit-learn==0.1.1
 sentence-transformers==0.3.8
