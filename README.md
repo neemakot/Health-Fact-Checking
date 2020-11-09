@@ -62,7 +62,7 @@ The evidence documents are all text files with names formatted as ```doc_<CLAIM_
 This project is built using Py36 and Tensorflow. To install the dependencies use the following command
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 There is the full list of requirements including versions:
