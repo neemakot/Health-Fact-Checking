@@ -2,6 +2,9 @@
 
 This repository contains data and code for the paper [Explainable Fact-Checking for Public Health Claims (Kotonya and Toni, 2020)](https://arxiv.org/abs/2010.09926). This research will be presented at The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020).
 
+*** __Models/scripts for running experiments are being prepared and will be released soon.__ ***
+
+
 ## Introduction
 
 Fact-checking is the task of verifying claims (i.e., distinguishing between false stories and facts) by assessing the  assertions made by claims against credible evidence. The vast majority of fact-checking studies focus exclusively on political claims. Very little research explores fact-checking for other topics, specifically subject matters for which _expertise_ is required. We present the first study in [explainable fact-checking](https://neemakot.github.io/project/survey/) for claims which require specific expertise. 
