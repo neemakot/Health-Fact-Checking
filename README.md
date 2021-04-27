@@ -2,7 +2,7 @@
 
 This repository contains data and code for the paper [Explainable Fact-Checking for Public Health Claims (Kotonya and Toni, 2020)](https://arxiv.org/abs/2010.09926). This research will be presented at The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020).
 
-*** __Models/scripts for running experiments are being prepared and will be released soon.__ ***
+
 
 
 ## Introduction
